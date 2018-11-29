@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/avenir_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamB';
+    src: url('fonts/gotham_bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'GothamM';
+    src: url('fonts/gotham_medium.woff') format('woff');
+}
+
+ul {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color:white;

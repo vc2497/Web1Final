@@ -1,0 +1,37 @@
+/* MAIN NAVIGATION ITEMS */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background:url('assets/fabric_plaid.png');
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+section img {
+    width: 100px;
+    height: 90px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    background:#1A2930;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 45px 5px 45px;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+
+}
+ul img {
+    width: 50px;
+}
+ul li:nth-child(6) {
+    background: none;
+}
