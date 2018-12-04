@@ -47,6 +47,7 @@ ul li:nth-child(6) {
     width: 60%;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 .FacultyText {
     text-align: center;
@@ -171,8 +172,28 @@ ul li:nth-child(6) {
     height: 89%;
 }
 
+/* MAIN FOOTER */
 
-
+footer {
+    width: 100%;
+}
+.footer-container {
+    width: auto;
+    background: #1d292f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 70px 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    padding-top: 20px;
+}
 
 
 

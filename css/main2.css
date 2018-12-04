@@ -1,0 +1,78 @@
+/* MAIN NAVIGATION ITEMS */
+* {
+    width: 100%;
+}
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    background:url('assets/FacultyImages/NavImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+section img {
+    width: 100px;
+    height: 90px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    background:#1A2930;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 45px 5px 45px;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    margin: 5px;
+
+}
+ul img {
+    width: 50px;
+}
+ul li:nth-child(6) {
+    background: none;
+}
+/* FACULTY HEADER SECTION */
+.StudentHeader {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.StudentText {
+    text-align: center;
+}
+
+/* MAIN CONTENT - HIGHLIGHTED STUDENTS */
+.Student-Main {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+
+}
+.LaurenImage {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 50px;
+}
+
+.ChadImage {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 50px;
+
+}
+
