@@ -22,12 +22,12 @@ section img {
 nav ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
+ 
 }
 nav li {
     background:#1A2930;
     margin: 5px 20px 5px 20px;
-    padding: 5px 45px 5px 45px;
+    padding: 5px 45px 0 45px;
 }
 nav a {
     text-decoration: none;
@@ -36,7 +36,7 @@ nav a {
 
 }
 ul img {
-    width: 50px;
+    width: 35px;
 }
 ul li:nth-child(6) {
     background: none;
@@ -124,6 +124,7 @@ ul li:nth-child(6) {
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
     margin-left: 45px;
+  
 
 }
 
@@ -183,11 +184,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 300px;
 }
 .footer-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     display: grid;
     grid-template-rows: 70px 70px 70px;
     grid-template-columns: 1fr 1fr 1fr;
