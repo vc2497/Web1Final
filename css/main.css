@@ -53,6 +53,7 @@ ul li:nth-child(6) {
     text-align: center;
 }
 
+
 /* MAIN CONTENT - BADASS STAFF IMAGES */
 .Grid {
     width: auto;
@@ -115,6 +116,18 @@ ul li:nth-child(6) {
 
 }
 
+@media only screen and (max-width: 735px) {
+    .Images {
+        display: block;
+        width: 100%;
+        align-content: left;
+        padding: none;
+        margin: 0;
+    }
+
+    
+}
+
 /* MAIN CONTENT - DESIGN THINKING IMAGES */
 .Grid2 {
     width: auto;
@@ -173,6 +186,19 @@ ul li:nth-child(6) {
     height: 89%;
 }
 
+
+@media only screen and (max-width: 735px) {
+    .More {
+        display: block;
+        width: 100%;
+        align-content: left;
+        padding: none;
+        margin: 0;
+    }
+
+    
+}
+
 /* MAIN FOOTER */
 
 footer {
@@ -194,5 +220,20 @@ footer {
     padding-top: 20px;
 }
 
+@media only screen and (max-width: 720px) {
+
+    .footer-container {
+        width: 100%;
+        height: 500px;
+        
+    }
+
+
+    .footer-items {
+        display: inline-block;
+        position: absolute;
+ 
+    }
+}
 
 
